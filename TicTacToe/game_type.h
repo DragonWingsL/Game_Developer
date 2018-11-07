@@ -1,5 +1,5 @@
 //++++++++++++++++++++++++++++++++++
-// 游戏中定义的类型
+// 娓告垙涓畾涔夌殑绫诲瀷
 //----------------------------------
 
 #pragma once
@@ -7,17 +7,17 @@
 #ifndef __GAME_TYPE_H__
 #define __GAME_TYPE_H__
 
-/* 点击玩家枚举 */
+/* 鐐瑰嚮鐜╁鏋氫妇 */
 typedef enum _ClickPlayer {
-	ClickPlayer_Player1 = 0x00000001,	// 玩家1
-	ClickPlayer_Player2 = 0x00000002	// 玩家2
+	ClickPlayer_Player1 = 0x00000001,	// 鐜╁1
+	ClickPlayer_Player2 = 0x00000002	// 鐜╁2
 }ClickPlayer;
 
-/* 游戏结局 */
+/* 娓告垙缁撳眬 */
 typedef enum _GameOverType {
-	GameOverType_Tie	 = 0x00000001,	// 平局
-	GameOverType_Player1 = 0x00000002,	// 玩家1
-	GameOverType_Player2 = 0x00000004	// 玩家2
+	GameOverType_Tie	 = 0x00000001,	// 骞冲眬
+	GameOverType_Player1 = 0x00000002,	// 鐜╁1
+	GameOverType_Player2 = 0x00000004	// 鐜╁2
 }GameOverType;
 
 #endif // !__GAME_TYPE_H__
